@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+header{
+    background-color: rgb(238, 204, 136);
+    background-size:cover;
+    min-height: fit-content;
+    width: 100vw;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+fieldset{
+    color: black;
+    padding: 3vw;
+    margin: 5vw;
+    border-radius: 10px;
+}
+
+.enlace{
+    color: rgb(204, 136, 58);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/blackandwhiteghibliwallpaper.jpeg);
+    background-repeat: initial;
+}
+.barra{
+    position: fixed;
+}
+
+.navegacion{
+    font-size: 140%;
+    background-color: rgb(0, 5, 8);
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+.navclick1:hover{
+    color:rgb(234, 236, 72);
+}
+.navclick2:hover{
+    color:rgb(159, 57, 168);
+}
+.navclick3:hover{
+    color:rgb(57, 137, 168);
+}
+.navclick4:hover{
+    color:rgb(57, 168, 107);
+}
+.navclick5:hover{
+    color:rgb(211, 100, 49);
+}
+
+h3{
+    font-size: 2.6vh;
+    margin-right: 3vw;
+}
+
+.cuerpo{
+    margin-right: 7vw;
+    margin-left: 7vw;
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.555);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow:visible;
+}
+
+.div1{
+    color: black;
+    margin-top: 25vh;
+    margin-bottom: 14vh;
+    padding: 5vh;
+    background-color: white;
+    justify-content: center;
+    width: 70vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    overflow: hidden;
+}
+.div2{
+    display: flex;
+    flex-flow: row;
+    margin-top: 2vh;
+}
+.div3{
+    color: black;
+    padding: 5vh;
+    background-color: white;
+    justify-content: center;
+    width: 70vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.div4{
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    justify-content: flex-start;
+    min-width: 18vw;
+    margin-right: 0%;
+}
+.div5{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: right;
+    
+}
+.div6{
+    width: 65vw;
+    display: flex;
+    flex-flow: row;
+    align-items:flex-start;
+    justify-content: right;
+    margin-top: 2vh;
+    margin-right: 0;
+}
+.div7{
+    width: 60vw;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.peliculas{
+    border-radius: 4px;
+    display: flex;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    height: 37vh;
+    align-items: center;
+}
+
+.video{
+    height: 37vh;
+    width: 55vh;
+}
+
+.merch{
+    height: 32vh;
+    margin: 1vw;
+    border-radius: 3px;
+    box-shadow:8px 8px 12px rgba(0, 0, 0, 0.8);
+}
+
+.merch:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.1);
+}
+
+.navidad{
+    background-color: rgb(169, 10, 10);
+    padding: 1.6vw;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.formulario{
+    color:rgb(211, 100, 49);
+    justify-content:flex-start;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+
+.news{
+    background-color: rgb(213, 212, 207);
+    color: black;
+    width: 28vw;
+    border-radius: 50px;
+    padding: 1.8vw;
+}
+
+#studiohead{
+    height:fit-content;
+}
+
+#giftotoro{
+    width: 20vw;
+}
+#letrastudio{
+    width: 20vw;
+}
+#letrasnavidad{
+    width: 12vw;
+}
+#gatobus{
+    width: 4vw;
+    margin-bottom: 2vh;
+}
+#miyazaki{
+    height: 25vh;
+    margin: 5vh;
+}
+
+#miyazaki:hover {
+    filter: opacity(.5);
+}
+
+#kikiscat{
+    width: 8vw;
+}
+
+#filmo{
+    width: 5vw;
+    margin-bottom: 2vh;
+}
+
+#mononoke{
+    width: 5.8vw;
+}
+#comovives{
+    width: 17vw;
+    margin-bottom: 2vh;
+}
+#novedades{
+    font-size: 1.3vw;
+    color: black;
+    margin-top: 0;
+}
+#inpsus{
+    color: white;
+    background-color: rgb(159, 100, 109);
+    padding: 0.8vw;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+#mensaje{
+    height: 18vh;
+}
+#contact{
+    background-color: rgb(213, 212, 207);
+    margin-top: 2vh;
+}
+#spoot{
+    width: 13vw;
+}
+
+.nota{
+    font-size: 15px;
+    background-color:white;
+    padding:8px 8px 8px 8px;
+    border:1px solid #BFBFBF;
+}
+
+.polaroid {
+    background-color:white;
+    padding:10px 10px 50px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:8px 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+footer{
+    color:white;
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    min-height: 4vh;
+    bottom:0;
+}
+
+
+
+@media only screen and (max-width: 1180px) {
+    .navegacion{
+        font-size: 1.8vh;
+        display: flex;
+        flex-flow: column;
+        max-height: fit-content;
+    }
+    header{
+        height: fit-content;
+    }
+    #studiohead{
+        max-width: 40vw;
+    }
+    #giftotoro{
+        width: 60%;
+    }
+    #gatobus{
+        width: 12%;
+    }
+    #letrastudio{
+        width: 60%;
+    }
+    #filmo{
+        width: 12%;
+    }
+    #kikiscat{
+        width: 18%;
+    }
+    #comovives{
+        margin-top: 2vh;
+        width: 35vw;
+    }
+    #letrasnavidad{
+        width: 30vw;
+    }
+    #miyazaki{
+        max-width: 25vw;
+        height: auto;
+    }
+    .cuerpo{
+        display: flex;
+        align-items: center;
+        margin: 4%;
+    }
+    .div1{
+        font-size: 1.5vh;
+        margin-top: 45vh;
+        min-width: 60%;
+        max-width: 85%;
+    }
+    .div2{
+        display: flex;
+        flex-flow: column;
+    }
+    .div4{
+        display: flex;
+        flex-flow: column;
+    }
+    .div5{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .div6{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .peliculas{
+        height: 30vh;
+        margin-bottom: 1vh;
+    }
+    .video{
+        max-height: 30vh;
+        max-width: 60vw;
+    }
+    .merch{
+        max-width: 36vw;
+        height: auto;
+    }
+    .formulario{
+        display: flex;
+        flex-flow: column;
+        font-size: 180%;
+        min-width: fit-content;
+    }
+    #novedades{
+        font-size: 4vw;
+    }
+    #mensaje{
+        height: 10vh;
+    }
+    .news{
+        border-radius: 8px;
+        width: fit-content;
+    }
+    .nota{
+        font-size: 180%;
+        margin: 5vw;
+    }
+    h2{
+        color:black;
+        font-size: 7.5vw;
+        margin-bottom: 1vh;
+        margin-top: 4vh;
+    }
+    h1{
+        font-size: 300%;
+    }
+    h3{
+        display: flex;
+        font-size: 160%;
+        height: 6vh;
+        overflow: hidden;
+        margin-top: 4vh;
+    }
+    p{
+        font-size: 200%;
+        margin: 1vh;
+    }
+    
+    footer{
+        font-size: 50%;
+    }
+}

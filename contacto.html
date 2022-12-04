@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel=icon href="./images/fuego.gif"></icon> 
+    <title>Página Web</title>
+</head>
+<body>
+    <div class="barra">
+        <header>
+            <a class="navclick" href="index.html"><img id="studiohead"src="./images/studioghibli01.gif"></a>
+        </header>
+        
+        <nav class="navegacion">
+            <p><a class="navclick1" href="index.html">Inicio</a></p>
+            <p><a class="navclick2" href="informacion.html">Información</a></p>
+            <p><a class="navclick3" href="filmografia.html">Filmografía</a></p>
+            <p><a class="navclick4" href="merchandising.html">Merchandising</a></p>
+            <p><a class="navclick5" href="contacto.html">Contacto</a></p>
+        </nav>
+    </div>
+
+    <div class="cuerpo">
+        <div class="div1">
+            <img id="kikiscat" src="./images/kikiscat.png">
+            <h1>Contacto</h1><br><br>
+
+            <div class="formulario">
+
+            <form action="/action_page.php">
+                <fieldset id="contact">
+                    <legend><b>CONTACTA CON NOSOTROS</b></legend>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto"><br><br><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <input type="text" id="mensaje" name="mensaje"><br><br><br>       
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+            <div>
+                <img id="spoot" src="./images/sootsprites.gif">
+                <form class="news" action="/action_page.php">
+                    <legend id="novedades">¿Quieres estar al tanto de nuestras novedades? <br> 
+                        ¡Suscribete a nuestra newsletter!</legend><br>
+                    <label for="datosp">Email:</label><br>
+                    <input type="email" id="datosp" name="email"><br><br>
+                    <input id="inpsus" type="submit" value="Suscribirme"> 
+                </form>
+            </div>
+           
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Eva Palomo Palomas - Lenguaje de Marcas 2022</p>
+    </footer>
+    
+</body>
+</html>
